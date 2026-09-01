@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-midudev-isp",
+  "version": "1.0.0",
+  "description": "Proyecto base para gestión operativa ISP con backend paso a paso",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "isp",
+    "telecom",
+    "backend",
+    "express"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "supertest": "^7.0.0"
+  }
+}
